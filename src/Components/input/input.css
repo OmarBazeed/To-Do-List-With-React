@@ -1,0 +1,46 @@
+.my-input {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.my-input input {
+    padding: 5px;
+    width: 250px;
+    height: 25px;
+    border: none;
+    filter: drop-shadow(2px 4px 6px black);
+    margin-right: 5px;
+    font-size: 20px;
+    background: linear-gradient(262deg, #ff57223b, #ffcc3361);
+    text-transform: capitalize;
+    color: white;
+}
+
+.my-input input:focus {
+    outline: none;
+}
+
+.my-input input:last-of-type {
+    width: 100px;
+}
+
+.my-input button {
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    background: linear-gradient(90deg, #009688b0, #ff5722b8);
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    transition: .5s;
+    margin-left: 10px;
+    filter: blur(1px);
+    user-select: none;
+}
+
+.my-input button:hover {
+    transform: scale(1.1);
+    filter: blur(0);
+}
